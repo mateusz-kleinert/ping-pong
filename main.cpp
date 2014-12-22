@@ -10,12 +10,12 @@
 #include <climits>
 #include <getopt.h>
 
-#define DEBUG 							true
-#define MSG_PING 						100
-#define MSG_PONG 						101
-#define MSG_SIZE 						1
-#define INIT_NODE						0
-#define CRITICAL_SECTION_SLEEP_TIME 	1000000 
+#define DEBUG 						true
+#define MSG_PING 					100
+#define MSG_PONG 					101
+#define MSG_SIZE 					1
+#define INIT_NODE					0
+#define CRITICAL_SECTION_SLEEP_TIME 			1000000 
 #define PONG_SEND_DELAY					500000	
 #define PING_LOSS_CHANCE				20
 #define PONG_LOSS_CHANCE				20
