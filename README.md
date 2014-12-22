@@ -8,7 +8,9 @@ How to compile and run:
 -----------------------
 ```bash
 mpic++ main.cpp -std=c++11
-mpirun -n [proc_num] ./a.out [--ping] [--pong]```
+mpirun -n [proc_num] ./a.out [--ping] [--pong]
+```
+
 
 `--ping` and `--pong` turn on message lost simulation
 
